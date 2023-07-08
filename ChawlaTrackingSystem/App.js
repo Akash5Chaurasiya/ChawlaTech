@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Header from './src/components/Header'
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <ScrollView>
+      <Header/>
+    </ScrollView>
   )
 }
 
